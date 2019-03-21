@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="device:device-width, user-scalable:no">
+	<meta name="author" content="Jose Luis Suárez">
+	<meta name="description" content="Educación Jose Luis Suarez">
+	<title>Educación</title>
+</head>
+<body>
+	<header>	
+		<svg  width="930px" height="300px" viewbox=" 0 0 930 300">
+			<image xlink:href="imagenes/logo.svg" width="930px" height="450px"  ></image>
+		</svg>		
+		<h1>Curriculum Vitae</h1>
+		<h2>Jose Luis Suárez</h2>
+		<h3>Diciembre 13, 1976, Santo Domingo, RD. </h3>
+	</header>
+	<nav>
+		<ul><strong>Menu</strong>
+			<li><a href="./index.html">Inicio</a></li>
+			<li><a href="./educacion.html">Educación</a></li>
+			</li><a href="./experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h2>Educación</h2>
+		<table border="2 px solid black">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1994</td>
+					<td>Colegio C.E.D.I.</td>
+					<td>Santo Domingo, RD</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>1999</td>
+					<td>Universidad Católica Santo Domingo</td>
+					<td>Santo Domingo, RD</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2019</td>
+					<td>Next U</td>
+					<td>Santo Domingo, RD</td>
+					<td>En Proceso</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section>
+		<h2>Agregar Estudios</h2>
+		<form name="estudios">
+			<fieldset>
+				<legend>Agregar</legend>
+				<label for="ano">Año</label>
+				<select id="ano">
+					<option>2019</option>
+					<option>2018</option>
+					<option>2017</option>
+					<option>2016</option>
+					<option>2015</option>
+					<option>2014</option>
+					<option>2013</option>
+					<option>....</option>
+				</select><br>
+				<label for="institucion">Institución</label>
+				<input type="text" name="institucion" id="institucion" required><br>	
+				<label for="lugar">Lugar</label>
+				<input type="text" name="lugar" id="lugar"><br>
+				<input type="submit" name="enviar" value="Enviar">
+			</fieldset>
+		</form>
+	</section>
+
+	<footer>
+		<p><a href="mailto:suarezluis@outlook.com">Escríbeme</a> | (809)754-6587 | Santo Domingo, República Dominicana</p>
+	</footer>
+</body>
+</html>
